@@ -1,11 +1,5 @@
-freeStyleJob('example') {
-
-    scm {
-        github('jenkinsci/job-dsl-plugin', 'master')
-    }
-
-    steps {
-        gradle('clean build')
-    }
-
+folder('CI-Pipelines') {
+    displayName('CI-Pipelines')
+    description('CI-Pipelines')
 }
+
