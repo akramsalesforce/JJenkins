@@ -1,6 +1,5 @@
 folder('CI-Pipelines') {
-    folder('cart') {
-        displayName('CI-Pipelines')
+          displayName('CI-Pipelines')
         description('CI-Pipelines')
     }
-}
+
