@@ -1,18 +1,9 @@
-multibranchPipelineJob('example') {
+multibranchPipelineJob('CI-Pipelines/cart') {
     branchSources {
-        git {
-            id('123456789') // IMPORTANT: use a constant and unique identifier
-            remote('https://github.com/jenkinsci/job-dsl-plugin.git')
-            credentialsId('github-ci')
-            includes('JENKINS-*')
+        github {
+            id('23232323') // IMPORTANT: use a constant and unique identifier
+            scanCredentialsId('GitHub')
+            repository('/akramsalesforce/cart.git')
         }
     }
-    orphanedItemStrategy {
-        discardOldItems {
-            numToKeep(20)
-        }
-    }
-    folder('CI-Pipelines') {
-        displayName('CI-Pipelines')
-        description('CI-Pipelines')
-    }
+}
