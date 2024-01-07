@@ -1,1 +1,1 @@
-JENKINS_CLI_PREFIX: "java -jar /home/centos/jenkins-cli.jar -s http://34.207.77.219:8080/ -auth {{JUSER}}:{{JPASS}} -webSocket"
+JENKINS_CLI_PREFIX: "java -jar /home/centos/jenkins-cli.jar -s http://18.232.111.107:8080/ -auth {{JUSER}}:{{JPASS}} -webSocket"
