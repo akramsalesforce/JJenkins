@@ -1,3 +1,2 @@
 MB_JOBS:
   - {name: "cart", repoName: "cart", dirName: "CI-Pipelines/"}
-  - {name: "catalogue", repoName: "catalogue", dirName: "CI-Pipelines/"}
