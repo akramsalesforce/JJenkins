@@ -1,0 +1,2 @@
+PIPELINE_JOBS:
+    - {name: "cart", repoName: "cart", dirName: "Terraform/", jenkinsfileName: "terraform-mutable/Jenkinsfile"}
